@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unstoppable Bypass - Donwload</title>
+    <style>
+        body {
+            background-color: #000;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #2600ff;
+        }
+        p {
+            font-size: 18px;
+            color: #2600ff;
+        }
+        #downloadLink {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #2600ff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        #downloadLink:hover {
+            background-color: #140085;
+        }
+    </style>
+</head>
+<body>
+    <h1>Unstoppable Bypass</h1>
+    <p>discord.gg/unstoppablebypass</p>
+    <p>Se o download não iniciar automaticamente, <a id="downloadLink" href="unstoppable.exe" download="unstoppable.exe">clique aqui</a> para baixar o arquivo.</p>
+
+    <script>
+        window.onload = function() {
+            var link = document.getElementById('downloadLink');
+            link.click();
+        };
+    </script>
+</body>
+</html>
